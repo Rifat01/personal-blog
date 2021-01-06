@@ -1,0 +1,328 @@
+/*---------------------------------TOP NAV----------------------------------*/
+.top-bar {
+    background: linear-gradient(to right, #ffffff 0%, #000066 100%);
+    line-height: 42px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.top-bar2{
+  background-color: #502c2c;
+}
+
+
+
+/*-----------------------------------------------------------------   IMAGE   ------------------------------------------------*/
+div.bgimage{
+  height:200px;
+  
+  padding: 80px 60px ;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background:  url('../images/ps.jpg') no-repeat ;
+  background-attachment: fixed;
+}
+.bgimage1{
+  background: url("../images/park.jpg") no-repeat center;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.bgimage2{
+  background: url("../images/railway3.jpg") no-repeat center fixed;
+
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+.bgcolor111{
+  background-color: #eeeeee;
+  height: 400px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.carousel-inner img {
+  
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/*---------------------------how it works image class----------------------------*/
+.image123{
+  height: 60%;
+  width: 50%;
+  padding: 30px;
+}
+.image124{
+  height: 70%;
+  width: 50%;
+}
+.image125{
+  height: 50%;
+  width: 50%;
+}
+
+
+/* -------------------------------------------------------------FONT--------------------------------------------------------- */
+.fcolor123 {
+    color: #1b1a1a;
+    text-shadow: 1px 1px 2px red, 0 0 25px red, 0 0 5px #48C9B0;
+    text-decoration: none;
+}
+.fcolor{
+  color:#FAFAFA;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.fcolor1{
+  color:#FAFAFA;
+  text-shadow: 1px 1px 2px red, 0 0 25px red, 0 0 5px #48C9B0;
+  text-decoration: none;
+}
+.fcolor2{
+  color:black;
+  text-shadow: 0px 0px 2px #FFEB3B, 0 0 25px black, 0 0 5px black;
+  text-decoration: none;
+}
+.fcolor3{
+  color: #ff6600;
+  text-shadow: 1px 1px 2px #FFEB3B, 0 0 25px black, 0 0 5px black;
+  margin-top: 100px;
+}
+.fcolor4{
+  color:red;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.fcolor5{
+  color: #EDE7F6;
+  text-shadow: 0px 0px 2px #ce1a1a, 0px 0px 20px #5d0a12, 0px 0px 20px #755039;
+}
+.fregular{
+  margin-left: 25%;
+  text-align: center;
+}
+.fregularNew {
+    margin-left: 15%;
+    text-align: center;
+}
+.regular{
+  text-align: center;
+  color:#FAFAFA;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.fcolor999{
+  margin-left: center;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.font123 {
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+.font124{
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+.errorcolor{
+  color: red;
+}
+
+
+
+/*--------------------------------------------------------------- BUTTON  -------------------------------------------------*/
+/*.button {
+  border-radius: 20px;
+  padding: 2px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 5px 20px;
+  -webkit-transition-duration: 0.4s; /* Safari *//*
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: white; 
+  border: 1px solid #4caf98;
+}
+
+.button1:hover {
+  background-color: #4caf98;
+  color: white;
+}*/
+
+
+
+
+
+/*  ---------------------------------------------------------  BEFORE   AFTER   ---------------------------------------------  */
+section.bgcolor111:before {
+    content: "";
+    background: #eeeeee;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    text-align: center;
+    transform: skewY(3deg);
+    left: 0px;
+    top: -60px;
+}
+section.bgcolor111:after {
+    content: "";
+    background: #eeeeee;
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    text-align: center;
+    transform: skewY(-3deg);
+    right: 0px;
+    top: -60px;
+}
+.content999 {
+    z-index: 1;
+    position: relative;
+}
+
+/*--------------------------------------------Search------------------------------------------*/
+/*
+#section123{
+  position: relative;
+}
+#search123{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#search124{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-18%, -50%);
+}*/
+.row.row-full-heigth{
+    min-height: 100vh;
+}
+form.search123 input[type=text]{
+    width: 100%;
+    height: 50px;
+}
+form.search123 button{
+    width: 100%;
+    height: 50px;
+  }
+form.search123{
+    position: relative;
+}
+/*--------------------------------------------Image flip with text-------------------------------*/
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background: linear-gradient(to right, #003300 0%, #ff0000 100%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.team-layout-1 .team-content .team-social-share {
+    border-top: 1px solid #EEE;
+    margin: 0px 0px;
+    padding: 15px;
+}
+
+bootstrap.min.css:5
+.text-center {
+    text-align: center;
+}
+
+/*--------------------------Footer-----------------------------------------------*/
+.back123{
+  background: linear-gradient(to bottom, #21303e 0%, #000000 100%);
+  font-family: cursive;
+}
+.back124{
+  /*background: linear-gradient(to right, #003300 0%, #ff0000 100%);*/
+  color: white;
+
+}
+.back125{
+  background: linear-gradient(to bottom, #ffffff 0%, #21303e 100%);
+  font-family: cursive;
+}
+
+
+.margin123{
+  top: 50%;
+  position: absolute;
+}
+
+/*------------------------------------------android app-------------------------*/
+.android123{
+  background: url('../images/mobile.jpg') no-repeat fixed;
+  position: relative;
+  height: 100vh;
+  width: 100%
+}
+/*-------------------log in---------------------------*/
+.bglogin{
+  background: url("../images/login.jpg") no-repeat center;
+  height: 95vh;
+}
+.divcolor{
+  background: #e8dddd33;
+  opacity: .8;
+  margin-top: 20%;
+}
+.divcolor1{
+  background: linear-gradient(to bottom, #99ffcc 0%, #ffffff 100%);
+  opacity: 1;
+  margin-top: 20%;
+}
+.caption123{
+  top: 20%;
+  bottom: 50%;
+}
